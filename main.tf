@@ -2,8 +2,8 @@ locals {
   vpc_id           = "vpc-05b4f1dd855a14cae"
   subnet_id        = "subnet-8b9b6bd4"
   ssh_user         = "ubuntu"
-  key_name         = "achu"
-  private_key_path = "~/TMP/achu.pem"
+  key_name         = "achutest"
+  private_key_path = "~/TMP/achutest.pem"
 }
 
 provider "aws" {
